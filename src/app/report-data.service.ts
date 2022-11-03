@@ -20,5 +20,8 @@ export class ReportDataService {
  getArchData(){
   return this.http.get('https://retoolapi.dev/yIbmi7/data');
 }
+ getDecisionTreeData(){
+  return this.http.get('https://retoolapi.dev/n06gcX/serverInfo/1')
+ }
   
 }

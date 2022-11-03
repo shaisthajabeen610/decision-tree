@@ -140,6 +140,7 @@ export class PricingComponent implements OnInit,Series {
   }
   pricingCalculation(e:any){
       if(e=="Simple"){
+        //logical processor 4
         //this.mname='F4s v2';
         // this.data.ram1='8 GB';
         // this.data.ram2='8 GB';
@@ -170,7 +171,7 @@ export class PricingComponent implements OnInit,Series {
       }
       //console.log("testing content",this.data_filter)
       if(e=="Medium"){
-       
+        //logical processor 6
         this.priceArray.push({ram1:'16 GB',
         ram2:'16 GB',
         ram3:'32 GB',
@@ -195,7 +196,7 @@ export class PricingComponent implements OnInit,Series {
       }
       if(e=="Complex"){
        
-
+ //logical processor 8 || greater than 8
         this.priceArray.push({ram1:'32 GB',
         ram2:'32 GB',
         ram3:'64 GB',
